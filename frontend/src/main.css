@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  font-family:
+    Iosevka,
+    Cascadia Code,
+    Menlo,
+    Microsoft YaHei,
+    PingFang SC;
+
+  color-scheme: light dark;
+
+  --color-theme-a: #646cff;
+  --color-theme-a2: #646cffaa;
+  --color-theme-a3: #747bff;
+  --color-theme-a4: #535bf2;
+
+  --color-light-text: #213547;
+  --color-light-bg: #fff;
+  --color-light-bg2: #f9f9f9;
+
+  --color-dark-text: #ffffffe0;
+  --color-dark-bg: #242424;
+  --color-dark-bg2: #1a1a1a;
+
+  --color-vue-green: #41b883;
+  --color-vue-green2: #42b883aa;
+  --color-vue-green3: #35495e;
+
+  --color-react-blue: #00d8ff;
+  --color-react-blue2: #61dafbaa;
+
+  --color-angular-blue: #0546ff;
+
+  --color-angular-violet: #8514f5;
+  --color-angular-violet2: #8001c6;
+  --color-angular-violet3: #7702ff;
+
+  --color-angular-pink: #f637e3;
+  --color-angular-pink2: #ff41f8;
+  --color-angular-pink3: #cc26d5;
+
+  --color-angular-red: #f11653;
+  --color-angular-red2: #fa2c05;
+  --color-angular-red3: #f0060b;
+  --color-angular-red4: #f0070c;
+
+  --color-theme-fff: #fff;
+  --color-theme-000: #000;
+
+  --color-angular-gray: #151417;
+  --color-angular-gray2: #413e46;
+  --color-angular-gray3: #a39fa9;
+
+  color: var(--color-light-text);
+  background: var(--color-light-bg);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--color-light-text);
+    background: var(--color-light-bg);
+  }
+}

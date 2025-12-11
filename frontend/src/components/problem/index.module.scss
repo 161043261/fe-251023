@@ -1,0 +1,61 @@
+.problem-container {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--color-light-bg);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.problem-description {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  color: var(--color-light-text);
+}
+
+.options-container {
+  // margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.option-item {
+  background: var(--color-light-bg2);
+  border: 1px solid var(--color-light-text);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+  &:hover {
+    color: var(--color-theme-fff);
+    border-color: var(--color-react-blue);
+    background: var(--color-react-blue2);
+  }
+}
+
+.option-correct {
+  color: var(--color-theme-fff);
+  border-color: var(--color-vue-green);
+  background: var(--color-vue-green2);
+}
+
+.option-wrong {
+  color: var(--color-theme-fff);
+  border-color: var(--color-angular-red);
+  background: var(--color-angular-red2);
+}
+
+.solution-container {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--color-light-bg2);
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-angular-blue);
+
+  h1 {
+    color: var(--color-vue-green);
+    margin-bottom: 0.5rem;
+  }
+}

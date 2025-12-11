@@ -1,0 +1,50 @@
+.loading-container {
+  text-align: center;
+  color: var(--color-light-text);
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.error-message {
+  color: var(--color-theme-a);
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--color-light-bg2);
+
+  button {
+    background: var(--color-react-blue2);
+    color: var(--color-light-text);
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.5s;
+
+    &:hover {
+      background: var(--color-theme-a2);
+    }
+
+    &:disabled {
+      background: var(--color-vue-green3);
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.history-container {
+  width: 100%;
+  background: var(--color-light-bg);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.history-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
